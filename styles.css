@@ -200,7 +200,7 @@ line-height: 45px;
   border-radius: 16px;
   margin: 24px;
 }
-
+/* play instantly section */
 .play-instantly-container{
   display: flex;
   justify-content: center;
@@ -219,7 +219,8 @@ line-height: 45px;
   top: 0;
 }
 
-.play-games-online-container{
+/* play games online section */
+.play-games-online-container {
   display: flex;
   justify-content: center;
   padding: 40px;
@@ -228,6 +229,7 @@ line-height: 45px;
 .play-games-online-image-bottom {    
   position: relative; 
 }
+
 .play-games-online-image-top {  
   border: 20px solid var(--primary-color);
   border-radius: 40px;
