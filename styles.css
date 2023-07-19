@@ -11,7 +11,7 @@
   --primary-color: #fff;
   --secondary-color: #534c64;
   --action-color1: #ff42a5;
-  -action-color2: #4ec5f7;
+  --action-color2: #4ec5f7;
 }
 
 .font16 {
@@ -49,11 +49,25 @@
   font-size: 48px;
   font-weight: 700;
 }
+
+.font48-600 {
+    color: #0b0223;
+    text-align: right;
+    font-size: 48px;
+    font-weight: 600;
+  }
+
+.font95 {
+    color: #0b0223;
+    text-align: right;
+    font-size: 95px;
+    font-weight: 800;
+  }
 /* nav section styles */
 .nav-container {
   width: 1920px;
   height: 130px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 .nav-container {
     display:flex;
@@ -91,4 +105,56 @@
 .nav-btn {
     border-radius: 8px;
     background-color: rgba(11, 2, 35, 0.10); 
+}
+
+/* banner sytles */
+.banner-container{
+    width: 1920;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+.banner-title {
+    text-align: left;
+}
+
+.banner-title-big {
+    text-align: left;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-content-left {
+    /* border: 1px solid green; */
+    justify-content: center;
+    margin: auto auto;
+    background-image: url("images/Group 14");   
+}
+
+.banner-buttons {
+    margin: 25px 0;
+}
+.banner-btn-1 {
+    background-color: var(--action-color1);
+    color: var(--primary-color);
+    padding: 16px;
+    border-radius: 30px;
+}
+
+.banner-btn-2 {
+    background-color: var(--action-color2);
+    color: var(--primary-color);    
+    padding: 16px;
+    border-radius: 30px; 
+}
+
+.banner-content-right {
+    /* border: 1px solid green; */
+}
+
+/* gamer section styles */
+.gamer-container{
+    
 }
