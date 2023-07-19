@@ -35,6 +35,22 @@
     font-weight: 500;
     line-height: 30px; /* 150% */
   }
+  font24{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 45px; /* 187.5% */
+  }
+
+  font32{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 45px;
+  }
 
 
 .font45 {
@@ -136,7 +152,7 @@
 .banner-buttons {
     margin: 25px 0;
 }
-.banner-btn-1 {
+.btn-1 {
     background-color: var(--action-color1);
     color: var(--primary-color);
     padding: 16px;
@@ -156,5 +172,31 @@
 
 /* gamer section styles */
 .gamer-container{
-    
+  width: 1920px;
+  height: 600px;
+  display: flex;
 }
+
+.gamer-image {
+  width: 870px;
+  height: 490px;
+  /* padding: 55px 812px 55px 240px; */
+}
+
+.gamer-container-right{
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+
+}
+
+.online-games-cards{
+  display: flex;
+}
+
+
+
+.
+
+
