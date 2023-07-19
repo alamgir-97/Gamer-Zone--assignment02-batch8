@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans";
+}
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: #534c64;
+  --action-color1: #ff42a5;
+  -action-color2: #4ec5f7;
+}
+
+.font16 {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.font18 {
+  color: #534c64;
+  text-align: right;
+  font-size: 18px;  
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+.font20 {
+    color: #534c64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+  }
+
+
+.font45 {
+  text-align: center; 
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.font48 {
+  color: #0b0223;
+  text-align: right;
+  font-size: 48px;
+  font-weight: 700;
+}
+/* nav section styles */
+.nav-container {
+  width: 1920px;
+  height: 130px;
+  border: 1px solid blue;
+}
+.nav-container {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: auto 240px;
+}
+
+.nav-items-left{
+    display: flex;
+      
+}
+
+.nav-title {
+    padding: 12px; 
+}
+
+.nav-title span {
+    color: var(--action-color1);
+}
+.nav-items-right{
+    list-style: none;   
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items-right li a {
+    text-decoration: none;
+}
+.nav-link {
+    padding: 20px;
+}
+
+.nav-btn {
+    border-radius: 8px;
+    background-color: rgba(11, 2, 35, 0.10); 
+}
