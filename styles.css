@@ -207,8 +207,7 @@ font32 {
   align-items: center;
   background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
-.gamer-container-left {
-  border: 1px solid blue;
+.gamer-container-left { 
   width: 60%;}
 
 .gamer-image {
@@ -218,8 +217,7 @@ font32 {
 
 
 .gamer-container-right {
-  width:40%;
-  border: 1px solid red;;
+  width:40%;  
   padding: 95px 120px 95px 0;   
 }
 
@@ -241,15 +239,25 @@ font32 {
   justify-content: flex-end;
 }
 
-
-
 /* online games section style */
+.online-games-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.online-games-title{
+  text-align: center;
+}
 .online-games-text-color {
   text-align: left;
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.online-games-description {
+  text-align: center;
+  padding: 12px;
 }
 .online-games-cards {
   display: flex;
@@ -258,7 +266,8 @@ font32 {
   width: 342px;
   height: 400px;
   border-radius: 16px;
-  margin: 24px;
+  margin: 24px 8px;
+  border: 0;
 }
 /* play instantly section */
 .play-instantly-container {
